@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "pydig"
+version = "0.1.0"
+description = "Python wrapper library for the 'dig' command line tool"
+license = "GPL-3.0"
+authors = ["Leon Smith <_@leonmarksmith.com>"]
+readme = "README.rst"
+repository = "https://github.com/leonsmith/pydig"
+homepage = "https://github.com/leonsmith/pydig"
+keywords = [
+    "dig",
+    "dns",
+    "pydig",
+    "resolver",
+    "lookup"
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Intended Audience :: Developers",
+    "Topic :: Internet :: Name Service (DNS)",
+    "Topic :: System :: Monitoring",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+pytest-cov = "^2.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
