@@ -72,5 +72,5 @@ https://github.com/leonsmith/pydig/tree/master/pydig
 *If you’re interested in financially supporting open source, consider donating.*
 
 
-![XLM Wallet](https://img.shields.io/keybase/xlm/leonsmith.svg)
-![BTC Wallet](https://img.shields.io/keybase/btc/leonsmith.svg)
+[![XLM Wallet](https://img.shields.io/keybase/xlm/leonsmith.svg)](https://keybase.io/leonsmith)
+[![BTC Wallet](https://img.shields.io/keybase/btc/leonsmith.svg)](https://keybase.io/leonsmith)
