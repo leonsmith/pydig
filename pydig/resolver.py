@@ -38,7 +38,7 @@ class Resolver:
 
         This method is normally mocked in tests
         """
-        logger.error('Executing subprocess.check_output({})'.format(repr(args)))  # pragma: no cover
+        logger.info('Executing subprocess.check_output({})'.format(repr(args)))  # pragma: no cover
         return subprocess.check_output(args)  # pragma: no cover
 
     def _args(self, domain, query_type):
