@@ -24,6 +24,7 @@ class QueryType(Enum):
     NS = 2
     PTR = 12
     TXT = 16
+    SOA = 6
 
     @classmethod
     def get(cls, query_type):
