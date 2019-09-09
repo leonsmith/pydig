@@ -24,6 +24,10 @@ class QueryType(Enum):
     NS = 2
     PTR = 12
     TXT = 16
+    DNSKEY = 48
+    DS = 43
+    CDNSKEY = 60
+    CDS = 59
 
     @classmethod
     def get(cls, query_type):
