@@ -66,11 +66,3 @@ custom resolver.
 The code is 150~ lines with 100% test coverage
 
 https://github.com/leonsmith/pydig/tree/master/pydig
-
-
-## Support
-*If you’re interested in financially supporting open source, consider donating.*
-
-
-[![XLM Wallet](https://img.shields.io/keybase/xlm/leonsmith.svg)](https://keybase.io/leonsmith)
-[![BTC Wallet](https://img.shields.io/keybase/btc/leonsmith.svg)](https://keybase.io/leonsmith)
