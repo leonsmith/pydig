@@ -18,17 +18,17 @@ class QueryType(Enum):
     Reference: https://en.wikipedia.org/wiki/List_of_DNS_record_types#Resource_records
     """
     A = 1
-    AAAA = 28
-    CNAME = 5
-    MX = 15
     NS = 2
-    PTR = 12
-    TXT = 16
-    DNSKEY = 48
-    DS = 43
-    CDNSKEY = 60
-    CDS = 59
+    CNAME = 5
     SOA = 6
+    PTR = 12
+    MX = 15
+    TXT = 16
+    AAAA = 28
+    DS = 43
+    DNSKEY = 48
+    CDS = 59
+    CDNSKEY = 60
 
     @classmethod
     def get(cls, query_type):
