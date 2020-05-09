@@ -2,4 +2,5 @@
 .tox
 .pytest_cache
 .coverage
+*.egg-info
 dist/
