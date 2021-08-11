@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pydig"
-version = "0.3.0"
+version = "0.4.0"
 description = "Python wrapper library for the 'dig' command line tool"
 license = "GPL-3.0"
 authors = ["Leon Smith <_@leonmarksmith.com>"]

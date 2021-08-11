@@ -29,6 +29,7 @@ class QueryType(Enum):
     DNSKEY = 48
     CDS = 59
     CDNSKEY = 60
+    CAA = 257
 
     @classmethod
     def get(cls, query_type):
