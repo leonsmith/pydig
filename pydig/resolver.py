@@ -60,7 +60,7 @@ class Resolver:
         yield query_type.name
 
         # We only care about the result
-        yield '+short'
+        yield from ('+noall', '+answer') if query_type == query_type.AXFR else ('+short',)
 
         # Add in any additional args
         yield from self.additional_args
