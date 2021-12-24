@@ -29,6 +29,7 @@ class QueryType(Enum):
     DNSKEY = 48
     CDS = 59
     CDNSKEY = 60
+    AXFR = 252
     CAA = 257
 
     @classmethod
